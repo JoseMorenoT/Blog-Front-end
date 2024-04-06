@@ -1,0 +1,31 @@
+// inicio newsletter
+.newsletter {
+    background-color: $adl;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+
+    &__title {
+        color: $white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: $poppins-font;
+        
+    }
+
+    &__form {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    &____container-buttons {
+        width: 20%;
+        padding:0 20px;
+    }
+}
